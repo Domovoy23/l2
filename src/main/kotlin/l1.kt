@@ -1,14 +1,24 @@
-//import java.util.Scanner
+import java.util.*
 
 
-  //  fun main() {
+    fun main() {
 
-  //      var str: Int = Scanner(System.`in`).nextInt()
-  //      var colc: Int = 0
-  //      for (i: Int in str) {
-   //         println(i)
-   //     }
-  //      println(colc)
-  //  }
+        var str: Int = Scanner(System.`in`).nextInt()
+        var colc: Int = 0
+        if(str>0){
+            for (i in 0..str) {
+                colc+=i
+
+        }}
+        else{
+            for (i in str..0) {
+                colc+=i
+
+            }
+
+        }
+
+        println(colc)
+    }
 
 
